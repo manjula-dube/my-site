@@ -16,7 +16,7 @@ const activeLinkClass = css`
 `;
 
 const ProfileHexImage = styled(HexImage)`
-  width: 100px;
+  width: 150px;
   height: 100px;
   transition: 0.5s;
 

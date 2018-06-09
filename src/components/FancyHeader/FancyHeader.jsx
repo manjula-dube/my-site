@@ -27,7 +27,7 @@ export const FancyH1 = styled("h1")`
 
   &:hover {
     transition: transform 200ms;
-    transform: skewX(4deg) skewY(-4deg);
+    transform: skewX(0deg) skewY(-6deg);
   }
 `;
 
