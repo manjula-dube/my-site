@@ -179,7 +179,7 @@ export default class MainLayout extends React.Component {
       <div>
         <Helmet>
           <title>{`${config.siteTitle}`}</title>
-          <meta name="description" content={config.siteDescription} />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </Helmet>
         <Navigation currentPathname={location.pathname} />
         <PageWrapper>

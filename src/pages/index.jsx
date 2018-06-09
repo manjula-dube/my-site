@@ -45,6 +45,9 @@ const TalksList = styled("div")`
   ul {
     list-style: none;
     margin: 0;
+    @media only screen and (max-width: 768px) {
+      margin:12px;
+    }
   }
 
   ul li {

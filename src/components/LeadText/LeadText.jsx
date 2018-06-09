@@ -17,7 +17,7 @@ const H3 = styled("h3")`
 `;
 
 const Text = styled("p")`
-  margin: 0;
+  margin: 10px;
   padding: 0;
   font-size: 0.9em;
   line-height: 1.8em;
@@ -63,7 +63,7 @@ export default class LeadText extends React.Component<LeadTextProps> {
         Mumbai Women Coders </a> 
         </Text>
         <Text>
-          Currently interested in{" "}
+          Currently interested in &nbsp;
           {this.props.techs.map((tech, index) => {
             const isLast = index === this.props.techs.length - 1;
             return (

@@ -8,6 +8,9 @@ const TalkVideoLink = styled("a")`
   box-shadow: none;
   opacity: 0.6;
   color: #5e35b1;
+  @media only screen and (max-width: 768px) {
+   margin:12px
+  }
 
   :hover,
   :focus {
