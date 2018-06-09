@@ -8,8 +8,12 @@ const H2 = styled("h2")`
 `;
 
 const H3 = styled("h3")`
-  margin: 0;
-  padding: 0;
+  margin: 15px;
+  @media only screen and (max-width: 768px) {
+    margin: 10px;
+    padding: 0;
+    line-height: 1.4;
+  }
 `;
 
 const Text = styled("p")`
@@ -17,6 +21,11 @@ const Text = styled("p")`
   padding: 0;
   font-size: 0.9em;
   line-height: 1.8em;
+  marginTop: 20
+  @media only screen and (max-width: 768px) {
+    margin: 10 px;
+    padding: 0;
+  }
 
   strong {
     margin-left: 2px;
@@ -35,8 +44,8 @@ export default class LeadText extends React.Component<LeadTextProps> {
     return (
       <div className={this.props.className}>
         <FancyH1 style={{ fontSize: 50 }}>Hi, I{"'"}m Manjula</FancyH1>
-        <H3 style={{ margin: 15 }}>JavaScript developer, based&nbsp;in&nbsp;Berlin</H3>
-        <H3 style={{ margin: 15 }}>
+        <H3>JavaScript developer, based&nbsp;in&nbsp;Berlin</H3>
+        <H3>
           Works at{" "}
           <a className="animated" href="http://marleyspoon">
             Marley&nbsp;Spoon,
@@ -46,7 +55,7 @@ export default class LeadText extends React.Component<LeadTextProps> {
           &nbsp;Geekabyte
           </a>
         </H3>
-        <Text style={{ marginTop: 20 }}>
+        <Text>
           {experience} years of professional expertise in web development and
           creating SPAs.
         </Text>
