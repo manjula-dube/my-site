@@ -38,7 +38,7 @@ type LeadTextProps = {
 export default class LeadText extends React.Component<LeadTextProps> {
   render() {
     const currentYear = new Date().getFullYear();
-    const experience = currentYear - 2013;
+    const experience = currentYear - 2014;
     return (
       <div className={this.props.className}>
         <FancyH1>Hi, I{"'"}m Manjula</FancyH1>
