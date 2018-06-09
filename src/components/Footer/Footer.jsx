@@ -6,7 +6,6 @@ import { TABLET_MEDIA_QUERY } from "typography-breakpoint-constants";
 const Footer = styled("footer")`
   justify-content: center;
   align-content: center;
-  padding: 10px 5px 20px;
 
   h5 {
     font-size: 0.9em;

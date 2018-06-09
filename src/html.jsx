@@ -4,6 +4,14 @@
 import React from "react";
 import favicon from "./favicon.png";
 import styled from "react-emotion";
+import { injectGlobal } from 'emotion'
+import img from '../static/images/background.png'
+
+injectGlobal`
+  * {
+    background-image: url(${img});
+  }
+`
 
 let inlinedStyles = "";
 if (process.env.NODE_ENV === "production") {

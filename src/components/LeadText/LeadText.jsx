@@ -19,7 +19,7 @@ const H3 = styled("h3")`
 const Text = styled("p")`
   margin: 10px;
   padding: 0;
-  font-size: 0.9em;
+  font-size: 1.0em;
   line-height: 1.8em;
   marginTop: 20
 
