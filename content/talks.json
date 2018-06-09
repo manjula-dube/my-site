@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Importance of testing & the right way to test React components",
+    "place": "Reactfoo Bangalore 2017",
+    "date": "22.06.2017",
+    "video": "https://www.youtube.com/watch?v=SqIkOIjrbI4"
+  },
+  {
+    "title": "Jest & Enzyme Complement Each Other",
+    "place": "React Day Berlin",
+    "date": "30.11.2017",
+    "video": "https://www.youtube.com/watch?v=X77LnVnfbJk"
+  },
+  {
+    "title": "Migrating from PHP legacy code to React & Best Practices in React",
+    "place": "Reactfoo Pune 2017",
+    "date": "3.3.2018",
+    "video":"https://www.youtube.com/watch?v=0JkkDCchGHU"
+  },
+  {
+    "title": "Rethinking With React 16",
+    "place": "React Amsterdam",
+    "date": "12.4.2018",
+    "video": "https://www.youtube.com/watch?v=gb2gXX7xiAM"
+  },
+  {
+    "title": "GraphQL Boilerplates",
+    "place": "React Alicante",
+    "date": "09.09.2018",
+    "video": "Coming Soon...."
+  },
+  {
+    "title": "GraphQL Boilerplates",
+    "place": "React Day Berlin",
+    "date": "30.11.2018",
+    "video": "Coming Soon...."
+  }
+]
