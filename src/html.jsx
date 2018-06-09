@@ -8,7 +8,7 @@ import { injectGlobal } from 'emotion'
 import img from '../static/images/background.png'
 
 injectGlobal`
-  * {
+  body {
     background-image: url(${img});
   }
 `
