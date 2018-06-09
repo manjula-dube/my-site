@@ -10,7 +10,11 @@ export const FancyH1 = styled("h1")`
   font-family: 'Contrail One', sans-serif;
   text-transform: uppercase;
   transition: transform 200ms;
+  font-size: 50px;
   transform: skewX(0deg) skewY(0.1deg);
+  @media only screen and (max-width: 768px) {
+    font-size: 40px;
+  }
 
   :before {
     content: "";

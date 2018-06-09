@@ -43,6 +43,9 @@ const Menu = styled("ul")`
   margin-left: 16px;
   padding: 0;
   list-style: none;
+  @media only screen and (max-width: 768px) {
+    margin-left: 0;
+  }
 `;
 
 const MenuItem = styled("li")`

@@ -22,13 +22,11 @@ const Text = styled("p")`
   font-size: 0.9em;
   line-height: 1.8em;
   marginTop: 20
-  @media only screen and (max-width: 768px) {
-    margin: 10 px;
-    padding: 0;
-  }
 
-  strong {
-    margin-left: 2px;
+  @media only screen and (max-width: 768px) {
+    margin: 10px;
+    padding: 0;
+    width: 360px
   }
 `;
 
@@ -43,7 +41,7 @@ export default class LeadText extends React.Component<LeadTextProps> {
     const experience = currentYear - 2013;
     return (
       <div className={this.props.className}>
-        <FancyH1 style={{ fontSize: 50 }}>Hi, I{"'"}m Manjula</FancyH1>
+        <FancyH1>Hi, I{"'"}m Manjula</FancyH1>
         <H3>JavaScript developer, based&nbsp;in&nbsp;Berlin</H3>
         <H3>
           Works at{" "}
