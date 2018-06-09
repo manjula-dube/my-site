@@ -96,6 +96,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-remove-serviceworker`
     },
-    "gatsby-plugin-netlify"
+    "gatsby-plugin-netlify",
+    {
+      resolve: 'gatsby-plugin-google-fonts',
+      options: {
+        fonts: [
+          'Contrail One', 'sans-serif',
+          'source sans pro\:300,400,400i,700' // you can also specify font weights and styles
+        ]
+      }
+    }
   ]
 };
