@@ -43,7 +43,7 @@ const typography = new Typography({
     "blockquote cite": {
       ...adjustFontSizeTo(options.baseFontSize),
       color: options.bodyColor,
-      fontWeight: options.bodyWeight
+      fontWeight: options.bodyWeight,
     },
     "blockquote cite:before": {
       content: '"— "'

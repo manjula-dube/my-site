@@ -3,6 +3,7 @@
 /* eslint global-require:"off" */
 import React from "react";
 import favicon from "./favicon.png";
+import styled from "react-emotion";
 
 let inlinedStyles = "";
 if (process.env.NODE_ENV === "production") {
@@ -48,10 +49,8 @@ export default class HTML extends React.Component {
           <div
             id="___gatsby"
             dangerouslySetInnerHTML={{ __html: this.props.body }}
-          />
+          ></div>
           {this.props.postBodyComponents}
-          
-
         </body>
       </html>
     );

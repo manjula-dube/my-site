@@ -7,8 +7,10 @@ import config from "../../config";
 import Navigation from "../components/Navigation/Navigation";
 import Footer from "../components/Footer/Footer";
 import PageContainer from "../components/PageContainer/PageContainer";
+import img from '../../static/images/background.png'
 
 const PageWrapper = styled("div")`
+  background-image:url(${img});
   min-height: calc(100vh - 230px);
   /* latin */
 @font-face {
