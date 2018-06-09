@@ -8,9 +8,6 @@ module.exports = ({ node, boundActionCreators, getNode }) => {
     const fileNode = getNode(node.parent);
     const parsedFilePath = path.parse(fileNode.relativePath);
     let prefix = "";
-    if (fileNode.sourceInstanceName === "blog") {
-      prefix = "/blog";
-    }
     if (
       Object.prototype.hasOwnProperty.call(node, "frontmatter") &&
       Object.prototype.hasOwnProperty.call(node.frontmatter, "slug")
