@@ -8,6 +8,8 @@ import {
 } from "typography-breakpoint-constants";
 import HexImage from "../HexImage/HexImage";
 import Config from "../../../config";
+import img from '../../../static/images/background.png'
+
 
 const activeLinkClass = css`
   color: black;
@@ -27,6 +29,7 @@ const ProfileHexImage = styled(HexImage)`
 
 const Nav = styled("nav")`
   display: flex;
+  background-image:url(${img});
   margin: 10px auto 40px auto;
   max-width: ${DEFAULT_WIDTH};
 
@@ -64,6 +67,7 @@ const LogoLink = styled(Link)`
 export default class Header extends React.Component {
   render() {
     return (
+      <div>
       <Nav>
         <LogoLink to="/">
           <ProfileHexImage image={Config.userAvatar} title={Config.userName} />
@@ -103,6 +107,7 @@ export default class Header extends React.Component {
           </MenuItem>
         </Menu>
       </Nav>
+      </div>
     );
   }
 }
