@@ -58,8 +58,8 @@ export default class LeadText extends React.Component<LeadTextProps> {
           creating SPAs.
         </Text>
         <Text>
-        I am tech speaker who loves teaching and 0SS. Works on 0SS with <a href="https://github.com/prismagraphql/prisma">
-        Prisma Team</a>
+        I am tech speaker who loves teaching and 0SS. Works on 0SS @ <a href="https://github.com/prismagraphql/prisma">
+        Prisma</a>
         </Text>
         <Text> Leading &nbsp; 
         <a className="animated" href="https://www.meetup.com/mumbai-women-coders/" >
