@@ -8,7 +8,6 @@ import {
 } from "typography-breakpoint-constants";
 import HexImage from "../HexImage/HexImage";
 import Config from "../../../config";
-import img from '../../../static/images/background.png'
 
 
 const activeLinkClass = css`
@@ -29,7 +28,6 @@ const ProfileHexImage = styled(HexImage)`
 
 const Nav = styled("nav")`
   display: flex;
-  background-image:url(${img});
   margin: 10px auto 40px auto;
   max-width: ${DEFAULT_WIDTH};
 
