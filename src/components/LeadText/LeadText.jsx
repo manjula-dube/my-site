@@ -45,7 +45,7 @@ export default class LeadText extends React.Component<LeadTextProps> {
         <H3>JavaScript developer, based&nbsp;in&nbsp;Berlin</H3>
         <H3>
           Works at{" "}
-          <a className="animated" href="http://marleyspoon">
+          <a className="animated" href="https://marleyspoon.com">
             Marley&nbsp;Spoon,
           </a>
           &nbsp;Founder at 
